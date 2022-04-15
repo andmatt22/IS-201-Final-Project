@@ -1,0 +1,117 @@
+/*This is the css code for the Home (index) page*/
+.background1{
+    background-color:darkcyan;
+}
+
+.homeweblinks{
+    color: black;
+}
+
+.homeweblinks:hover{
+    color:lightskyblue;
+}
+
+.video{
+    text-align: center;
+}
+
+/*This style is for both the About Me page and the Home (index) page*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color:cornsilk;
+}
+
+/* This is the css styles for the About Me page*/
+.bg2{
+    background-color:rgb(240, 191, 118);
+}
+
+.nps{
+    color:blue;
+
+}
+
+.contact{
+    text-align: center;
+}
+
+.Top-about{
+    color: rgb(5, 5, 71);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sidephoto1{
+    left: 5px;
+    width: 362px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.sidephoto{
+    left: 5px;
+    width: 362px;
+    height: 592px
+}
+
+.sidephoto3{
+    right: 5px;
+    width: 362px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.sidephoto2{
+    right: 5px;
+    width: 362px;
+    height: 592px;
+}
+/* Slideshow code on About Me page */
+    .slideshow{
+        height: 400px;
+        width: 650px;
+        overflow: hidden;
+        border: 10px solid black;
+        position: relative;
+        margin-right: 100px;
+        margin-top: 5px;
+    }
+
+    .photoslide{
+        position: absolute;
+        animation: round 24s infinite;
+        opacity: 0;
+        background-size:cover;
+        background-position: center;
+    }
+
+    @keyframes round{
+        25% {
+        opacity: 1;
+        }
+        40% {
+        opacity: 0;
+        }
+    }
+
+    .photoslide:nth-child(1) {
+        animation-delay: 20s;
+    }
+    .photoslide:nth-child(2) {
+        animation-delay: 16s;
+    }
+    .photoslide:nth-child(3) {
+        animation-delay: 12s;
+    }
+    .photoslide:nth-child(4) {
+        animation-delay: 8s;
+    }
+    .photoslide:nth-child(5) {
+        animation-delay: 4s;
+    }
+    .photoslide:nth-child(6) {
+        animation-delay: 0s;
+    }
+
+/* End of Slide Show Code*/
+
