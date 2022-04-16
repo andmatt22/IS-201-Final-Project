@@ -1,0 +1,93 @@
+/*All the css styles on this page is for the Resume page*/
+
+.resumebody{
+    position: absolute;
+    left:25% ;
+    right: 2px;
+    padding: 5px;
+    margin: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.sidebar1{
+    left: 5px;
+    width: 24%;
+    background-color:rgb(105, 210, 241);
+    position: absolute;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.background3{
+    background-color:rgb(245, 237, 237);
+}
+
+
+.ResumeAnchors{
+    text-align: center; 
+    background-color:rgb(158, 157, 157); 
+    padding: 15px;
+}
+
+.skills{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:large;
+}
+
+.degree{
+    color: rgb(61, 54, 54);
+
+}
+
+.footer3{
+    left: 4px;
+    right: 2px;
+    margin: 1px;
+    margin-bottom: 0px;
+    height: 30px;
+    bottom: 0px;
+    position: fixed;
+    background-color:rgb(158, 157, 157) ;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.biggest{
+    font-weight: bolder;
+    font-size:xx-large;
+    color: black;
+    margin-left: 15px;
+}
+
+
+.bigger{
+    font-weight: 900;
+    font-size: large;
+    color:rgb(2, 26, 26);
+}
+
+.big{
+    font-weight:600;
+    font-size: large;
+    color: rgb(43, 39, 39);
+}
+
+h3{
+    font-weight: bolder;
+    background-color: rgb(105, 210, 241);
+    text-align: center;
+    color:white;
+    padding: 2.5px;
+}
+
+.workcity{
+    color: rgb(61, 54, 54);
+}
+
+.schoollinks{
+    color: darkblue;
+}
