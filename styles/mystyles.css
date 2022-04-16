@@ -43,37 +43,45 @@ h3{
 
 .sidephoto1{
     left: 5px;
-    width: 362px;
+    width: 24%;
     position: absolute;
     margin-top: 40px;
+    z-index: 1;
 }
 
 .sidephoto{
     left: 5px;
-    width: 362px;
+    width: 100%;
     height: 592px
 }
 
 .sidephoto3{
     right: 5px;
-    width: 362px;
+    width: 24%;
     position: absolute;
     margin-top: 40px;
+    z-index: 1;
 }
 
 .sidephoto2{
     right: 5px;
-    width: 362px;
+    width: 100%;
     height: 592px;
+}
+
+.first{
+    width: 57%;
+    left: 20%;
+    right: 20%;
+    z-index: 3;
 }
 /* Slideshow code on About Me page */
     .slideshow{
         height: 400px;
-        width: 650px;
+        width: 100%;
         overflow: hidden;
         border: 10px solid black;
         position: relative;
-        margin-right: 100px;
         margin-top: 5px;
     }
 
@@ -81,8 +89,7 @@ h3{
         position: absolute;
         animation: round 24s infinite;
         opacity: 0;
-        background-size:cover;
-        background-position: center;
+        background-size: contain;
     }
 
     @keyframes round{

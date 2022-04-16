@@ -1,8 +1,8 @@
 /*All the css styles on this page is for the Resume page*/
 
-.edu3{
+.resumebody{
     position: absolute;
-    left:332px ;
+    left:25% ;
     right: 2px;
     padding: 5px;
     margin: 8px;
@@ -13,7 +13,7 @@
 
 .sidebar1{
     left: 5px;
-    width: 330px;
+    width: 24%;
     background-color:rgb(105, 210, 241);
     position: absolute;
     padding: 5px;
@@ -33,7 +33,7 @@
 
 .skills{
     font-family:'Times New Roman', Times, serif;
-    font-weight: 600;
+    font-weight: bolder;
     font-size:large;
 }
 
